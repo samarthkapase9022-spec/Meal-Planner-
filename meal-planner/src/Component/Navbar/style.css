@@ -13,6 +13,7 @@
 
 }
 
+
 .nav-left{
     display: flex;
     align-items: center;
@@ -138,4 +139,17 @@
 .active{
   color: #667eea;
     background: rgba(102, 126, 234, 0.15);
+}
+.navbar {
+  height: 80px;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+}
+.navbar h2 {
+  font-size: 24px;
+}
+.navbar button {
+  font-size: 16px;
+  padding: 8px 16px;
 }
